@@ -85,6 +85,8 @@ C:\Windows\System32\drivers\etc\hosts
 
   - DNS 스푸핑 공격은 파밍(Pharming) 공격이라고도 함
 
+  - ARP/DNS 캐시 테이블 사용하는 주소 체계 조작
+
   - ```shell
     # hosts 파일 하단에 추가
     
@@ -103,5 +105,6 @@ C:\Windows\System32\drivers\etc\hosts
 
   - 공격자가 가짜 DNS 서버 IP 주소 할당하면 클라이언트는 가짜 DNS 서버 이용
 
-  
+- DDoS(Distributed Denial of Service):
 
+  - 출발지 IP 주소를 수시로 변경, 상대방에게 불필요한 데이터 계속 전송해 인위적으로 부하를 유발하는 기법
